@@ -72,7 +72,7 @@ services:
   # TSHARK
   tshark:
     container_name: tshark
-    build: ./
+    image: danielguerra/tshark-elasticsearch
     hostname: tshark
     tty: true
     links:
